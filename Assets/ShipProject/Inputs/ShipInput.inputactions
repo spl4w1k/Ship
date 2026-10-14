@@ -1,0 +1,99 @@
+{
+    "version": 1,
+    "name": "ShipInput",
+    "maps": [
+        {
+            "name": "Sailing",
+            "id": "09d3c906-a027-45a2-b0a8-8d9003e3850e",
+            "actions": [
+                {
+                    "name": "OpenSail",
+                    "type": "Button",
+                    "id": "caeefe39-c571-4b25-b033-11faa84f6a3a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "CloseSail",
+                    "type": "Button",
+                    "id": "c20fe3ba-bbc2-48ab-a9f3-d468c42d4f84",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "RotateSailLeft",
+                    "type": "Button",
+                    "id": "e30ad7bc-eaf0-4b2b-b186-3d0fe6af81fe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "RotateSailRight",
+                    "type": "Button",
+                    "id": "2c8a06fd-8fda-4b59-a37d-df242310f27e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a7f1c27c-d439-4422-84a8-f5615e3bee34",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenSail",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef0a409a-cdd7-42a6-a60f-bf80b66c5099",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseSail",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ddfd30a-bb20-446f-a014-6b512e381796",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateSailLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0aba4da1-8ad9-4e17-b920-f54d4e0fc2f4",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateSailRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

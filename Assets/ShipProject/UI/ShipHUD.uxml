@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" focusable="false" data-source="project://database/Assets/ShipProject/UI/UIData.asset?fileID=11400000&amp;guid=30a157f74f9f3eb4396e2fae1923b46d&amp;type=2#UIData" style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 0; background-color: rgb(20, 40, 61); width: 273px; height: 100px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(95, 201, 248); border-right-color: rgb(95, 201, 248); border-top-color: rgb(95, 201, 248); border-bottom-color: rgb(95, 201, 248); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;">
+            <ui:Label text="Sail Opening:" name="Opening" style="font-size: 26px; -unity-font-style: bold; margin-bottom: 6px; color: rgb(242, 247, 255);">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="RotationText" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="Sail Rotation:" name="Rotation" style="font-size: 26px; -unity-font-style: bold; height: 47px; width: 269px; color: rgb(242, 247, 255);">
+                <Bindings>
+                    <ui:DataBinding property="text" data-source-path="OpeningText" binding-mode="ToTarget"/>
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
