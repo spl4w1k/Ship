@@ -45,6 +45,26 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "RotateShipLeft",
+                    "type": "Button",
+                    "id": "41fdadf8-73bf-4349-a23f-e484ea52a0b4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "RotateShipRight",
+                    "type": "Button",
+                    "id": "1a4b3dd2-e757-4cdd-b2b4-7da2e9754eee",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -89,6 +109,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "RotateSailRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "645a8b06-8706-43f4-827d-e54181ac53e1",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateShipLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0118c1ba-8e25-49bc-80eb-1bbd8ba297d7",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateShipRight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class SailController : MonoBehaviour
 {
-    //sail movement
+    
     [SerializeField]
     [Range(0f,100f)]
     private float _sailOpening = 0f;
@@ -15,7 +15,7 @@ public class SailController : MonoBehaviour
     public float SailOpening => _sailOpening;
     public float SailRotation => _sailRotation;
 
-    //input actions
+   
     [SerializeField]
     private InputActionReference _rotateSailLeft;
 
